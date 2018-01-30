@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFToTiffConverter.ConsoleHost", "PDFToTiffConverter.ConsoleHost\PDFToTiffConverter.ConsoleHost.csproj", "{2E5E3913-DE63-4942-8DCB-566AB8DA9A77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFToTiffConverter.Services", "PDFToTiffConverter.Services\PDFToTiffConverter.Services.csproj", "{8EBE2304-7713-4810-8EB5-D73C7722937F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{68CC70F3-6BBA-4B84-8A0A-5A8504DAC8D3}"
+	ProjectSection(SolutionItems) = preProject
+		libs\itextsharp.dll = libs\itextsharp.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFToTiffConverter.WindowsServiceHost", "PDFToTiffConverter.WindowsServiceHost\PDFToTiffConverter.WindowsServiceHost.csproj", "{A463E111-9CB7-44E8-84DA-4DE2A08D4A3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C1C97C83-65C3-4199-A485-8DD7273B1417}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E5E3913-DE63-4942-8DCB-566AB8DA9A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5E3913-DE63-4942-8DCB-566AB8DA9A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5E3913-DE63-4942-8DCB-566AB8DA9A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5E3913-DE63-4942-8DCB-566AB8DA9A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBE2304-7713-4810-8EB5-D73C7722937F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBE2304-7713-4810-8EB5-D73C7722937F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBE2304-7713-4810-8EB5-D73C7722937F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBE2304-7713-4810-8EB5-D73C7722937F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A463E111-9CB7-44E8-84DA-4DE2A08D4A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A463E111-9CB7-44E8-84DA-4DE2A08D4A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A463E111-9CB7-44E8-84DA-4DE2A08D4A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A463E111-9CB7-44E8-84DA-4DE2A08D4A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DED918F-64FE-4A30-B442-84D878C41C79}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://snstfs.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PDFToTiffConverter.ConsoleHost\\PDFToTiffConverter.ConsoleHost.csproj
+		SccProjectName1 = PDFToTiffConverter.ConsoleHost
+		SccLocalPath1 = PDFToTiffConverter.ConsoleHost
+		SccProjectUniqueName2 = PDFToTiffConverter.Services\\PDFToTiffConverter.Services.csproj
+		SccProjectName2 = PDFToTiffConverter.Services
+		SccLocalPath2 = PDFToTiffConverter.Services
+		SccProjectUniqueName3 = PDFToTiffConverter.WindowsServiceHost\\PDFToTiffConverter.WindowsServiceHost.csproj
+		SccProjectName3 = PDFToTiffConverter.WindowsServiceHost
+		SccLocalPath3 = PDFToTiffConverter.WindowsServiceHost
+	EndGlobalSection
+EndGlobal
