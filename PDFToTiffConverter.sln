@@ -1,16 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFToTiffConverter.ConsoleHost", "PDFToTiffConverter.ConsoleHost\PDFToTiffConverter.ConsoleHost.csproj", "{2E5E3913-DE63-4942-8DCB-566AB8DA9A77}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFToTiffConverter.Services", "PDFToTiffConverter.Services\PDFToTiffConverter.Services.csproj", "{8EBE2304-7713-4810-8EB5-D73C7722937F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{68CC70F3-6BBA-4B84-8A0A-5A8504DAC8D3}"
-	ProjectSection(SolutionItems) = preProject
-		libs\itextsharp.dll = libs\itextsharp.dll
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFToTiffConverter.WindowsServiceHost", "PDFToTiffConverter.WindowsServiceHost\PDFToTiffConverter.WindowsServiceHost.csproj", "{A463E111-9CB7-44E8-84DA-4DE2A08D4A3A}"
 EndProject
